@@ -1,0 +1,11 @@
+host: localhost
+port: 7777
+concurMode: false   # czy klienci działają równolegle?
+showSendRes: true  # czy pokazywać zwrócone przez serwer wyniki metody send(...)
+clientsMap: # id_klienta -> lista żądań
+  Asia:
+    - 2019-01-10 2020-03-01
+    - 2020-03-27T10:00 2020-03-28T10:00
+  Adam:
+    - 2018-01-01 2020-03-27
+    - 2020-03-28T10:00 2020-03-29T10:00
